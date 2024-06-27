@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+canvas,
+span,
+input,
+table,
+textarea,
+.p-link {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+.font{
+    font-family: 'Sacramento',cursive !important;
+}
+
+/* Custom CSS to extend the connector */
+.p-timeline-event-connector {
+    background-color:#3182ce;
+    width: 1px !important;
+    height: 100%; /* Ensure the connector extends fully */
+    min-height: 100px; /* Minimum height to cover content */
+}
+
+.p-timeline-event-content {
+    position: relative;
+    padding-bottom: 30px; /* Add some space at the bottom if needed */
+}
+
+.p-timeline-event:last-child .p-timeline-event-connector {
+    display: none; /* Hide connector for the last child */
+}
