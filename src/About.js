@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import profile from '../src/Images/profile.jpg';
+import profile from '../src/Images/profile.png';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import download from'../src/Images/dwnld.gif';
 const About = () => {

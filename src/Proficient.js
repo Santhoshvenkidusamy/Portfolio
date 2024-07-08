@@ -20,8 +20,8 @@ const Proficient = () => {
       <div className='h-32'>
         {!show ? (
           <>
-          <a href="/Santhosh.V_Resume.pdf" download onClick={handleDownload} className='flex justify-center'>
-            <img src={dwnld} alt="Download Icon"  className='h-16 mt-4' />
+          <a href="/Santhosh.V_Resume.pdf" download onClick={handleDownload} className='flex justify-center w-full'>
+            <img src={dwnld} alt="Download Icon"  className='h-16 mt-4 w-full' />
           </a>
         </>
         ) : (

@@ -22,7 +22,7 @@ const Toogle = () => {
         {
             status: "Junior Software Development Engineer",
             company:'Freightify',
-            date: "jan 2022 - mar 2022",
+            date: "July 2022 - July 2023",
             details: [
               { description: "Developed responsive web applications using React, ensuring optimal performance across various devices." },
               { description: "Integrated API to fetch and update data, providing seamless communication between the front-end and backend systems." },
@@ -30,21 +30,21 @@ const Toogle = () => {
               { description: "Developed modules for efficient CRUD operations in MongoDB." },
               { description: "Implemented a user-friendly portal enabling clients to easily update data in MongoDB, reducing manual effort significantly." },
               { description: "Introduced Bulk Update feature, allowing clients to update multiple documents simultaneously." },
-              { description: "Proficient in writing queries, aggregation, transactions, atlas search, atlas functions." }
+              { description: "Successfully performed MongoDB migration from version 4.2 - 6.0" },
             ]
           },
           {
-            status: "Junior Software Development Engineer",
-            company:'Freightify',
-            date: "jan 2022 - mar 2022",
+            status: "Associate Analytics",
+            company:'WNS Global Services',
+            date: "Jan 2024 - Present",
             details: [
-              { description: "Developed responsive web applications using React, ensuring optimal performance across various devices." },
-              { description: "Integrated API to fetch and update data, providing seamless communication between the front-end and backend systems." },
+                { description: "Integrated cutting-edge features like lazy loading and code splitting to optimize the application's performance, reducing initial load times and improving overall speed." },
+                { description: "Developed complex state management solutions using Redux, enhancing the predictability and traceability of the application state." },
+              { description: "Applied Agile methodologies and used tools like Git for version control and Jira for project management." },
               { description: "Converted wireframes and mockups into functional components, ensuring pixel-perfect implementations." },
-              { description: "Developed modules for efficient CRUD operations in MongoDB." },
-              { description: "Implemented a user-friendly portal enabling clients to easily update data in MongoDB, reducing manual effort significantly." },
-              { description: "Introduced Bulk Update feature, allowing clients to update multiple documents simultaneously." },
-              { description: "Proficient in writing queries, aggregation, transactions, atlas search, atlas functions." }
+              { description: "Used Scriptura Engage tool to create documents for insurance, streamlining the documnt generation process." },
+              { description: "Collabrated with cross-functional teams to deliver high-quality software solutions in a timely manner."},
+              {description: "Managed SLA's to ensure timely delivery of software solutions, maintaining high standards of performance and client satisfication."}
             ]
           },
           {
@@ -74,7 +74,7 @@ const Toogle = () => {
                 </div>
             </div>
         <div className="w-full">
-                <div className="p-2 m-4">
+                <div className="py-2 my-4">
                     {toggle ? (
                         <TimeLineEducation events={education} alignment="right" />
                     ) : (

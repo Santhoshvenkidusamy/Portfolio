@@ -40,3 +40,77 @@ textarea,
 .p-timeline-event:last-child .p-timeline-event-connector {
     display: none; /* Hide connector for the last child */
 }
+
+.custom-carousel .p-carousel-prev,
+.custom-carousel .p-carousel-next {
+    top: 50%;
+    transform: translateY(-50%);
+   
+    z-index: 1;
+}
+
+
+
+/* Responsive adjustments */
+/* @media (max-width: 1400px) {
+   
+
+    .custom-carousel .p-carousel-prev {
+        left: 14rem;
+    }
+
+    .custom-carousel .p-carousel-next {
+        right: 16rem;
+    }
+}
+
+@media (max-width: 1199px) {
+  
+
+    .custom-carousel .p-carousel-prev {
+        left: 4rem;
+    }
+
+    .custom-carousel .p-carousel-next {
+        right: 10rem;
+    }
+}
+
+@media (max-width: 1000px) {
+  
+
+    .custom-carousel .p-carousel-prev {
+        left: 0rem;
+    }
+
+    .custom-carousel .p-carousel-next {
+        right: 4rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+
+    .custom-carousel .p-carousel-prev {
+        left: 3rem;
+    }
+
+    .custom-carousel .p-carousel-next {
+        right: 3rem;
+    }
+}
+@media (max-width: 540px) {
+    
+
+    .custom-carousel .p-carousel-prev {
+        left: 0.5rem;
+    }
+
+    .custom-carousel .p-carousel-next {
+        right: 0.5rem;
+    }
+} */
+
+
+  
