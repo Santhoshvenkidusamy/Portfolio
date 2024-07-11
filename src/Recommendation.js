@@ -1,19 +1,22 @@
-import React from 'react'
+import React from 'react';
 import { Carousel } from 'primereact/carousel';
-import Swiggy from '../src/Images/Swiggy.png'
-import Netflix from '../src/Images/Netflix.png'
-import { GrFormPreviousLink } from "react-icons/gr";
-import { GrFormNextLink } from "react-icons/gr";
+import Swiggy from '../src/Images/Swiggy.png';
+import Ranjini from '../src/Images/Ranjini.jpg';
+import Netflix from '../src/Images/Netflix.png';
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
 const Recommendation = () => {
     const responsiveOptions = [
         {
             breakpoint: '1400px',
-            numVisible: 1,
+            numVisible: 3,
             numScroll: 1
         },
         {
             breakpoint: '1199px',
-            numVisible: 1,
+            numVisible: 2,
             numScroll: 1
         },
         {
@@ -24,54 +27,89 @@ const Recommendation = () => {
         {
             breakpoint: '575px',
             numVisible: 1,
-            numScroll: 1
+            numScroll: 2
         }
     ];
-    const products = [
-            {
-                
-                name: 'Swiggy Clone',
-                details: [
-                    { description: "The project aimed to replicate the functionalities and user experience of the popular food delivery platform, using Swiggy's APIs to accessand display restaurant listings, menus, order processing, and delivery features.Technologies Used: React.js , Redux , Tailwind CSS " },
-                ],
-    
-                image: Swiggy,
-                
-            },
-            {
-                name: 'Netflix GPT',
-                details: [
-                {description: 'Developed a custom AI-powered movie recommendation system, NetflixGPT, leveraging natural language processing techniques to provide personalized movie recommendations and enhance user experience. Technologies Used: React.js , Redux , Tailwind CSS',}
-                ],
-                image: Netflix,
-            }
-        ]
-    
-    const productTemplate = (products) => {
-        return (
-            <div className=" border-1 surface-border border-round  text-center ">
-    <div className='flex justify-center flex-col items-start md:items-start md:ml-2'>
-        <h4 className="mb-1"></h4>
-        <div className="mt-0 mb-3 text-[18px]">{products.name}</div>
-{products?.details?.map((detail, index) => (
-    <div key={index} className='text-gray-700 text-[15px] align-baseline text-left mx-2 md:mx-0'>
-        {detail?.description}
-    </div>
-))}
-    </div>
-</div>
 
+    const products = [
+        {
+            
+            name: 'Arun Prakash',
+            description: 'Santhosh is not only highly competent in dev side but also possesses excellent communication and teamwork abilities. What sets him apart is his dedication and proactive approach. He always went above and beyond to ensure that projects were completed on time and to the highest standard.',
+            image: Swiggy,
+            role: 'Junior Software Test Engineer'
+        },
+        {
+            
+            name: 'Nikitha',
+            description: 'Santhosh exhibited outstanding problem-solving abilities and a proactive approach to tackling challenges. He was an invaluable team player, always willing to collaborate and share her knowledge with colleagues, fostering a positive and productive work environment.',
+            image: Netflix,
+            role: 'Junior Software Development Engineer'
+        },
+        {
+            
+            name: 'Karthikeyan',
+            description: `Santhosh is a dedicated and enthusiastic individual who constantly seeks to master new technologies.                                                                                            `,
+            image: Netflix,
+            role: 'Junior Software Development Engineer'
+            
+        },
+        {
+          
+            name: 'Sri Ranjini',
+            description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
+            image: Ranjini,
+            role: 'Student'
+        }
+    ];
+
+
+    
+        const productTemplate = ( product ) => {
+            return (
+                <div className="relative py-8">
+                <div className="rounded-lg  border-2 border-gray-100 bg-white p-4 px-8 m-2 text-center relative overflow-visible transform transition duration-500 hover:scale-105">
+                    <div className="absolute top-0 right-1/2 transform translate-x-1/2 sm:translate-x-1/3 md:translate-x-1/4 lg:translate-x-1/2" style={{ transform: 'translate(50%, -50%)', zIndex: 100 }}>
+                        <img
+                            src={product.image}
+                            alt={product.name}
+                            className="w-20 h-20 object-cover rounded-full border-4 border-white shadow-md"
+                        />
+                    </div>
+                    <div className="relative z-10 pt-0 sm:pt-10 md:pt-0 ">
+                    <div className="mt-8">
+                        <div className=" text-lg font-semibold">{product.name}</div>
+                        <div className="text-sm text-gray-500 mt-1 mb-2">{product.role}</div>
+                        <p className="text-sm text-gray-600">{product.description}</p>
+                    </div>
+                </div>
+                </div>
+            </div>
         );
     };
-  return (
-    <div className=''>
-        <div className='flex flex-col items-center m-4'>
-        <div className='text-[24px]'>Recommendation</div>
-        <div className='text-[12px] text-gray-500'>~via Linkedin Recommendations</div>
-      </div>
-      <Carousel value={products}  responsiveOptions={responsiveOptions} autoplayInterval={3000} nextIcon={'pi'} prevIcon={'pi'}className="custom-carousel mx-2 md:mx-10 lg:mx-20 mt-6" circular itemTemplate={productTemplate} />
-    </div>
-  )
+        
+        
+
+    return (
+        <div className='py-10 bg-gray-50'>
+            <div className='flex flex-col items-center mb-6'>
+                <div className=' font-bold text-gray-800'>Recommendations</div>
+                <div className='text-sm text-gray-500'>~via LinkedIn Recommendations</div>
+            </div>
+            <div className='card'>
+                <Carousel
+                    value={products}
+                    responsiveOptions={responsiveOptions}
+                    autoplayInterval={5000}
+                    nextIcon=''
+                    prevIcon=''
+                    className=""
+                    circular
+                    itemTemplate={productTemplate}
+                />
+            </div>
+        </div>
+    );
 }
 
-export default Recommendation
+export default Recommendation;

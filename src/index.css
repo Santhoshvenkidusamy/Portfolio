@@ -49,6 +49,11 @@ textarea,
     z-index: 1;
 }
 
+.card {
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
 
 
 /* Responsive adjustments */

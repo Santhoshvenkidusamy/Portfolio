@@ -11,15 +11,19 @@ import 'primeicons/primeicons.css';
 import Recommendation from './Recommendation';
 function App() {
   return (
+    <>
     <div className='md:mx-20'>
       <Header />
       <About />
       <Proficient />
       <Toogle />
       <Portfolio/>
-      {/* <Recommendation /> */}
+      </div>
+      <Recommendation />
+      <div className='md:mx-20'>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
 
