@@ -4,6 +4,7 @@ import Swiggy from '../src/Images/Swiggy.png';
 import Niki from '../src/Images/Niki.jpg';
 import Ranjini from '../src/Images/Ranjini.jpg';
 import Arun from '../src/Images/Arun.jpg';
+import Gokul from '../src/Images/Gokul.jpg';
 import Karthikeyan from '../src/Images/Karthikeyan.jpg';
 import Netflix from '../src/Images/Netflix.png';
 import 'primereact/resources/themes/saga-blue/theme.css';
@@ -38,6 +39,13 @@ const Recommendation = () => {
             description: 'Santhosh is not only highly competent in dev side but also possesses excellent communication and teamwork abilities. What sets him apart is his dedication and proactive approach. He always went above and beyond to ensure that projects were completed on time and to the highest standard.',
             image: Arun,
             role: 'Junior Software Test Engineer'
+        },
+        {
+          
+            name: 'Gokulakrishna G',
+            description: 'He demonstrates a strong passion for learning new technologies and consistently shows a willingness to adapt and grow. Moreover, he is an excellent team player.',
+            image: Gokul,
+            role: 'Lead DevOps Engineer'
         },
         {
             
@@ -93,7 +101,7 @@ const Recommendation = () => {
     return (
         <div className='py-5 bg-gray-100'>
             <div className='flex flex-col items-center mb-6'>
-                <div className=' font-bold text-gray-800'>Recommendations</div>
+                <div className='text-[24px]'>Recommendations</div>
                 <div className='text-sm text-gray-500'>~via LinkedIn Recommendations</div>
             </div>
             <div className='card'>
@@ -103,9 +111,6 @@ const Recommendation = () => {
                     numVisible={3}
                     numScroll = {1}
                     autoplayInterval={5000}
-                    nextIcon=''
-                    prevIcon=''
-                    className=""
                     circular
                     itemTemplate={productTemplate}
                     showNavigators= {false}

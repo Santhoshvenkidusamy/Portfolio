@@ -25,7 +25,7 @@ const TimeLineEducation = ({ events, alignment }) => {
                 <div className='text-[15px] font-bold text-gray-800 mb-1'>{item?.degree}</div>
                 <div className='text-[13px] font-medium text-gray-700 mb-2'>{item?.school}</div>
                 <div className='text-[12px] text-gray-600 flex  items-center justify-end'>
-                    <CiCalendar className='mr-2 text-gray-500' />
+                    <CiCalendar className='mr-2 text-blue-600' />
                    <span>{item?.date}</span>
                 </div>
                 <div className='text-[13px] font-medium text-gray-800 mt-3'>{item?.cgpa}</div>

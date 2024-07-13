@@ -25,7 +25,7 @@ const  TimeLine = ({ events, alignment }) =>{
                 <div className='text-[15px] font-semibold text-gray-800'>{item?.status}</div>
                 <div className='text-[13px] font-semibold text-gray-500 mt-1'>{item?.company}</div>
                 <div className='text-[12px] text-gray-500 flex items-center justify start mt-2'>
-                    <CiCalendar className='' />
+                    <CiCalendar className='border-blue-600' />
                     <span className='ml-1'>{item?.date}</span>
                 </div>
                 <div className='mt-4 space-y-2'>
