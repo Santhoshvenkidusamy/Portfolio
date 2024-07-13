@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 gap-x-4 mx-10'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 gap-x-4 mx-10 mt-10'>
         <div className='text-center md:text-left'>
           <div className='text-[14px]'>No copyright issues.</div>
           <div className='text-[12px] text-gray-500'>Feel free to copy. If you need any help, ping me!</div>

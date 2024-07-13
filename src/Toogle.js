@@ -13,8 +13,8 @@ const Toogle = () => {
 
     const education = [
         { degree: 'B.Tech Information Technology', date: '2019 - 2024', cgpa:'CGPA: 8.7%', school:'Sri Eshwar College Of Engineering, Coimbatore'  },
-        { degree: 'Higher Secondary School', date: '2018 - 2019',cgpa:'CGPA: 8.7%', school:'Vidhyaa Vikas Higher Secondary School, Coimbatore'  },
-        { degree: 'Secondary School', date: '2016 - 2017', cgpa:'CGPA: 8.7%', school:'Srinivasa Vidhyalaya, Udumalpet'  },
+        { degree: 'Higher Secondary School', date: '2018 - 2019',cgpa:'CGPA: 7.0%', school:'Vidhyaa Vikas Higher Secondary School, Coimbatore'  },
+        { degree: 'Secondary School', date: '2016 - 2017', cgpa:'CGPA: 9.5%', school:'Srinivasa Vidhyalaya, Udumalpet'  },
         {  }
     ];
 

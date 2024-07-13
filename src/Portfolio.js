@@ -76,7 +76,7 @@ const Portfolio = () => {
     };
 
     return (
-        <div className=''>
+        <div className='mb-8'>
             <div className='flex flex-col items-center m-4'>
                 <div className='text-[24px]'>Portfolio</div>
                 <div className='text-[12px] text-gray-500'>My Recent Work ~</div>

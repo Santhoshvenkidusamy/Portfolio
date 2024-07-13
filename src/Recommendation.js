@@ -91,7 +91,7 @@ const Recommendation = () => {
         
 
     return (
-        <div className='py-5 bg-gray-50'>
+        <div className='py-5 bg-gray-100'>
             <div className='flex flex-col items-center mb-6'>
                 <div className=' font-bold text-gray-800'>Recommendations</div>
                 <div className='text-sm text-gray-500'>~via LinkedIn Recommendations</div>
@@ -101,6 +101,7 @@ const Recommendation = () => {
                     value={products}
                     responsiveOptions={responsiveOptions}
                     numVisible={3}
+                    numScroll = {1}
                     autoplayInterval={5000}
                     nextIcon=''
                     prevIcon=''
