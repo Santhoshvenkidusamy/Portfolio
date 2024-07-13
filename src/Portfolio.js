@@ -6,28 +6,6 @@ import { GrFormPreviousLink } from "react-icons/gr";
 import { GrFormNextLink } from "react-icons/gr";
 
 const Portfolio = () => {
-    const responsiveOptions = [
-        {
-            breakpoint: '1400px',
-            numVisible: 1,
-            numScroll: 1
-        },
-        {
-            breakpoint: '1199px',
-            numVisible: 1,
-            numScroll: 1
-        },
-        {
-            breakpoint: '767px',
-            numVisible: 1,
-            numScroll: 1
-        },
-        {
-            breakpoint: '575px',
-            numVisible: 1,
-            numScroll: 1
-        }
-    ];
 
     const products = [
         {
@@ -83,7 +61,8 @@ const Portfolio = () => {
             </div>
             <Carousel
                 value={products}
-                responsiveOptions={responsiveOptions}
+                numVisible= {1}
+            numScroll= {1}
                 nextIcon={<GrFormNextLink className='w-10 text-[90px] text-blue-600' />}
                 prevIcon={<GrFormPreviousLink className='w-10 text-[90px] text-blue-600' />}
                 className="custom-carousel mx-2 lg:mx-20 mt-6"

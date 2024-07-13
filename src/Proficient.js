@@ -29,7 +29,7 @@ const Proficient = () => {
         )}
       </div>
       </div>
-      <div className='flex flex-col items-center m-4'>
+      <div className='flex flex-col items-center mb-4 mx-4'>
         <div className='text-[24px]'>Skills</div>
         <div className='text-[12px] text-gray-500'>Proficient in ~</div>
       </div>
