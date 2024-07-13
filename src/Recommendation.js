@@ -2,20 +2,18 @@ import React from 'react';
 import { Carousel } from 'primereact/carousel';
 import Swiggy from '../src/Images/Swiggy.png';
 import Ranjini from '../src/Images/Ranjini.jpg';
+import Arun from '../src/Images/Arun.jpg';
+import Karthikeyan from '../src/Images/Karthikeyan.jpg';
 import Netflix from '../src/Images/Netflix.png';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import { Image } from 'primereact/image';
 
 const Recommendation = () => {
     const responsiveOptions = [
         {
-            breakpoint: '1400px',
-            numVisible: 3,
-            numScroll: 1
-        },
-        {
-            breakpoint: '1199px',
+            breakpoint: '1000px',
             numVisible: 2,
             numScroll: 1
         },
@@ -27,16 +25,17 @@ const Recommendation = () => {
         {
             breakpoint: '575px',
             numVisible: 1,
-            numScroll: 2
+            numScroll: 1
         }
     ];
+
 
     const products = [
         {
             
             name: 'Arun Prakash',
             description: 'Santhosh is not only highly competent in dev side but also possesses excellent communication and teamwork abilities. What sets him apart is his dedication and proactive approach. He always went above and beyond to ensure that projects were completed on time and to the highest standard.',
-            image: Swiggy,
+            image: Arun,
             role: 'Junior Software Test Engineer'
         },
         {
@@ -50,7 +49,7 @@ const Recommendation = () => {
             
             name: 'Karthikeyan',
             description: `Santhosh is a dedicated and enthusiastic individual who constantly seeks to master new technologies.                                                                                            `,
-            image: Netflix,
+            image: Karthikeyan,
             role: 'Junior Software Development Engineer'
             
         },
@@ -91,7 +90,7 @@ const Recommendation = () => {
         
 
     return (
-        <div className='py-10 bg-gray-50'>
+        <div className='py-5 bg-gray-50'>
             <div className='flex flex-col items-center mb-6'>
                 <div className=' font-bold text-gray-800'>Recommendations</div>
                 <div className='text-sm text-gray-500'>~via LinkedIn Recommendations</div>
@@ -100,12 +99,14 @@ const Recommendation = () => {
                 <Carousel
                     value={products}
                     responsiveOptions={responsiveOptions}
+                    numVisible={3}
                     autoplayInterval={5000}
                     nextIcon=''
                     prevIcon=''
                     className=""
                     circular
                     itemTemplate={productTemplate}
+                    showNavigators= {false}
                 />
             </div>
         </div>
