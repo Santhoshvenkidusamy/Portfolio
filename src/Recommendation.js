@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
 import Swiggy from '../src/Images/Swiggy.png';
+import Niki from '../src/Images/Niki.jpg';
 import Ranjini from '../src/Images/Ranjini.jpg';
 import Arun from '../src/Images/Arun.jpg';
 import Karthikeyan from '../src/Images/Karthikeyan.jpg';
@@ -42,7 +43,7 @@ const Recommendation = () => {
             
             name: 'Nikitha',
             description: 'Santhosh exhibited outstanding problem-solving abilities and a proactive approach to tackling challenges. He was an invaluable team player, always willing to collaborate and share her knowledge with colleagues, fostering a positive and productive work environment.',
-            image: Netflix,
+            image: Niki,
             role: 'Junior Software Development Engineer'
         },
         {
@@ -107,6 +108,7 @@ const Recommendation = () => {
                     circular
                     itemTemplate={productTemplate}
                     showNavigators= {false}
+                    showIndicators
                 />
             </div>
         </div>
