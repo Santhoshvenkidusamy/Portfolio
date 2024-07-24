@@ -56,19 +56,19 @@ const Toogle = () => {
     return (
         <div className="flex flex-col items-center mt-8">
             <div className='flex flex-col items-center mb-4'>
-                <div className='text-[24px]'>Qualification</div>
+                <div className='text-[24px] dark:text-slate-200 dark:hover:text-blue-500'>Qualification</div>
                 <div className='text-[12px] text-gray-500'>My Personal Journey</div>
             </div>
             <div className="flex items-center mb-4 text-[20px]">
                 <div className="flex items-center group cursor-pointer" onClick={() => setToggle(true)}>
-                    <LuGraduationCap className={`text-[20px] ${toggle ? 'text-blue-500' : 'text-gray-500'} group-hover:text-blue-500`} />
-                    <span className={`px-2 py-2 mx-1 ${toggle ? 'text-blue-500' : 'text-gray-500'} group-hover:text-blue-500`}>
+                    <LuGraduationCap className={`text-[20px] ${toggle ? 'text-blue-500' : 'text-gray-500 dark:text-slate-200'} group-hover:text-blue-500`} />
+                    <span className={`px-2 py-2 mx-1 ${toggle ? 'text-blue-500' : 'text-gray-500 dark:text-slate-200 dark:hover:text-blue-500'} group-hover:text-blue-500`}>
                         Education
                     </span>
                 </div>
                 <div className="flex items-center group cursor-pointer ml-4" onClick={() => setToggle(false)}>
-                    <HiOutlineBriefcase className={`text-[20px] ${!toggle ? 'text-blue-500' : 'text-gray-500'} group-hover:text-blue-500`} />
-                    <span className={`px-2 py-2 mx-1 ${!toggle ? 'text-blue-500' : 'text-gray-500'} group-hover:text-blue-500`}>
+                    <HiOutlineBriefcase className={`text-[20px] ${!toggle ? 'text-blue-500' : 'text-gray-500 dark:text-slate-200 '} group-hover:text-blue-500`} />
+                    <span className={`px-2 py-2 mx-1 ${!toggle ? 'text-blue-500' : 'text-gray-500 dark:text-slate-200 '} group-hover:text-blue-500`}>
                         Experience
                     </span>
                 </div>

@@ -5,7 +5,8 @@ import { RiJavascriptFill, RiTailwindCssFill } from 'react-icons/ri';
 import { FaGitlab } from 'react-icons/fa6';
 import download from '../src/Images/dwnld.gif';
 import dwnld from '../src/Images/dwnld.png';
-
+import { ScrollTop } from 'primereact/scrolltop';
+import { FaArrowUp } from "react-icons/fa";
 const Proficient = () => {
   const [show, setShow] = useState(false);
 
@@ -16,7 +17,7 @@ const Proficient = () => {
   return (
     <>
       <div className='flex flex-col items-center justify-center space-y-2'>
-      <div className='text-[24px] text-gray-500'>Download My Resume</div>
+      <div className='text-[24px]  dark:text-slate-200 dark:hover:text-blue-500'>Download My Resume</div>
       <div className='h-32'>
         {!show ? (
           <>
@@ -30,7 +31,7 @@ const Proficient = () => {
       </div>
       </div>
       <div className='flex flex-col items-center mb-4 mx-4'>
-        <div className='text-[24px]'>Skills</div>
+        <div className='text-[24px] dark:text-slate-200 dark:hover:text-blue-500'>Skills</div>
         <div className='text-[12px] text-gray-500'>Proficient in ~</div>
       </div>
       <div className='flex flex-wrap items-center justify-center text-[32px]'>
@@ -67,6 +68,7 @@ const Proficient = () => {
           <span className='text-[12px]'>GitLab</span>
         </div>
       </div>
+      <ScrollTop target="window" behavior='smooth' className="w-1rem h-1rem border-round-md bg-blue-500 text-white" icon={<FaArrowUp/>} />
     </>
   );
 };

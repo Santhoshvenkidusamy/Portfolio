@@ -24,6 +24,10 @@ textarea,
     font-family: 'Sacramento',cursive !important;
 }
 
+*{
+    @apply transition-colors duration-300
+}
+
 /* Custom CSS to extend the connector */
 .p-timeline-event-connector {
     background-color:#3182ce;

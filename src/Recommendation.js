@@ -75,7 +75,7 @@ const Recommendation = () => {
     
         const productTemplate = ( product ) => {
             return (
-                <div className="relative py-8">
+                <div className="relative py-8 ">
                 <div className="rounded-lg  border-2 border-gray-100 bg-white p-4 px-8 m-2 text-center relative overflow-visible transform transition duration-500 hover:scale-105">
                     <div className="absolute top-0 right-1/2 transform translate-x-1/2 sm:translate-x-1/3 md:translate-x-1/4 lg:translate-x-1/2" style={{ transform: 'translate(50%, -50%)', zIndex: 100 }}>
                         <img
@@ -99,9 +99,9 @@ const Recommendation = () => {
         
 
     return (
-        <div className='py-5 bg-gray-100'>
+        <div className='py-5 bg-gray-100 dark:bg-gray-900'>
             <div className='flex flex-col items-center mb-6'>
-                <div className='text-[24px]'>Recommendations</div>
+                <div className='text-[24px] dark:text-slate-200 dark:hover:text-blue-500'>Recommendations</div>
                 <div className='text-sm text-gray-500'>~via LinkedIn Recommendations</div>
             </div>
             <div className='card'>

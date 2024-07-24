@@ -9,9 +9,9 @@ const About = () => {
   }
   return (
     <>
-            <div className='flex flex-col items-center m-4'>
-                <div className='text-[30px]'>About</div>
-                <div className='text-[12px] text-gray-500'>My Introduction</div>
+            <div className='flex flex-col items-center m-4 pt-24'>
+                <div className='text-[30px] text-black dark:text-slate-200 dark:hover:text-blue-500'>About</div>
+                <div className='text-[12px] text-gray-500 dark:text-gray-300 dark:hover:text-blue-500'>My Introduction</div>
             </div>
     <div className="flex flex-col items-center m-4 p-4 lg:flex-row lg:justify-center xl:mx-48 space-y-4 lg:space-y-0 lg:space-x-14">
       <div className="flex flex-col items-center lg:w-1/3 space-y-4">
@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
       <div className="lg:w-1/2 text-center lg:text-left">
-        <div className="space-y-4  text-gray-400 text-[15px]">
+        <div className="space-y-4  text-slate-700 dark:text-slate-300 text-[15px]">
           <p>
             Hi, I'm Santhosh, a recent B.Tech graduate in Information Technology and a passionate web developer.
           </p>
