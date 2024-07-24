@@ -20,7 +20,7 @@ const About = () => {
           <a href="https://www.linkedin.com/in/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             <FaLinkedin size={32} />
           </a>
-          <a href="https://github.com/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-gray-900">
+          <a href="https://github.com/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white">
             <FaGithub size={32} />
           </a>
           <a href="mailto:santhoshvenkidusamy@gmail.com" className="text-red-600">
