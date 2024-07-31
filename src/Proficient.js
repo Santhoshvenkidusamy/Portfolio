@@ -3,8 +3,8 @@ import { FaReact, FaHtml5, FaGitAlt, FaAws } from 'react-icons/fa';
 import { BiLogoMongodb } from 'react-icons/bi';
 import { RiJavascriptFill, RiTailwindCssFill } from 'react-icons/ri';
 import { FaGitlab } from 'react-icons/fa6';
-import download from '../src/Images/dwnld.gif';
-import dwnld from '../src/Images/dwnld.png';
+import download from '../src/Images/download-ts.gif';
+import dwnld from '../src/Images/dwnld-ts.png';
 import { ScrollTop } from 'primereact/scrolltop';
 import { FaArrowUp } from "react-icons/fa";
 const Proficient = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import footer from '../src/Images/foot.jpg';
+import footer from '../src/Images/foot-ts.png';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='h-30 bg-white w-full flex justify-center items-center mt-4'>
+      <div className='h-30  w-full flex justify-center items-center mt-4'>
         <img src={footer} alt="Footer" />
       </div>
     </>
