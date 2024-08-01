@@ -25,7 +25,7 @@ textarea,
 }
 
 *{
-    @apply transition-colors duration-300
+    @apply transition-colors duration-200
 }
 
 /* Custom CSS to extend the connector */
@@ -70,67 +70,6 @@ textarea,
     border-radius: 10px;
 }
 
-
-/* Responsive adjustments */
-/* @media (max-width: 1400px) {
-   
-
-    .custom-carousel .p-carousel-prev {
-        left: 14rem;
-    }
-
-    .custom-carousel .p-carousel-next {
-        right: 16rem;
-    }
-}
-
-@media (max-width: 1199px) {
-  
-
-    .custom-carousel .p-carousel-prev {
-        left: 4rem;
-    }
-
-    .custom-carousel .p-carousel-next {
-        right: 10rem;
-    }
-}
-
-@media (max-width: 1000px) {
-  
-
-    .custom-carousel .p-carousel-prev {
-        left: 0rem;
-    }
-
-    .custom-carousel .p-carousel-next {
-        right: 4rem;
-    }
-}
-
-
-@media (max-width: 768px) {
-    
-
-    .custom-carousel .p-carousel-prev {
-        left: 3rem;
-    }
-
-    .custom-carousel .p-carousel-next {
-        right: 3rem;
-    }
-}
-@media (max-width: 540px) {
-    
-
-    .custom-carousel .p-carousel-prev {
-        left: 0.5rem;
-    }
-
-    .custom-carousel .p-carousel-next {
-        right: 0.5rem;
-    }
-} */
 
 
   

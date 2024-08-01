@@ -37,35 +37,35 @@ const Proficient = () => {
       <div className='flex flex-wrap items-center justify-center text-[32px]'>
         <div className='flex flex-col items-center mx-8 m-3'>
           <FaReact className='text-blue-600' />
-          <span className='text-[12px]'>React</span>
+          <span className='text-[12px] dark:text-gray-300'>React</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <BiLogoMongodb className='text-green-600' />
-          <span className='text-[12px]'>Mongo DB</span>
+          <span className='text-[12px] dark:text-gray-300'>Mongo DB</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <RiJavascriptFill className='text-yellow-600' />
-          <span className='text-[12px]'>JavaScript</span>
+          <span className='text-[12px] dark:text-gray-300'>JavaScript</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <FaHtml5 className='text-red-600' />
-          <span className='text-[12px]'>HTML</span>
+          <span className='text-[12px] dark:text-gray-300'>HTML</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <RiTailwindCssFill className='text-blue-600' />
-          <span className='text-[12px]'>Tailwind Css</span>
+          <span className='text-[12px] dark:text-gray-300'>Tailwind Css</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
-          <FaGitAlt className='text-black' />
-          <span className='text-[12px]'>Git</span>
+          <FaGitAlt className='text-black dark:text-white' />
+          <span className='text-[12px] dark:text-gray-300'>Git</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <FaAws className='text-blue-600' />
-          <span className='text-[12px]'>AWS</span>
+          <span className='text-[12px] dark:text-gray-300'>AWS</span>
         </div>
         <div className='flex flex-col items-center mx-8 m-3'>
           <FaGitlab className='text-orange-600' />
-          <span className='text-[12px]'>GitLab</span>
+          <span className='text-[12px] dark:text-gray-300'>GitLab</span>
         </div>
       </div>
       <ScrollTop target="window" behavior='smooth' className="w-1rem h-1rem border-round-md bg-blue-500 text-white" icon={<FaArrowUp/>} />
