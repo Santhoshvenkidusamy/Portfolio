@@ -7,15 +7,15 @@ const Footer = () => {
     <>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 gap-x-4 mx:10 md:mx-20 mt-10'>
         <div className='text-center md:text-left'>
-          <div className='text-[14px]'>No copyright issues.</div>
-          <div className='text-[12px] text-gray-500'>Feel free to copy. If you need any help, ping me!</div>
+          <div className='text-[14px] dark:text-gray-200'>No copyright issues.</div>
+          <div className='text-[12px] text-gray-500 dark:text-gray-400'>Feel free to copy. If you need any help, ping me!</div>
         </div>
         <div className='flex justify-center font text-blue-500 text-[20px] sm:my-4 md:my-0'>Santhosh Venkidusamy</div>
         <div className='flex justify-center md:justify-end space-x-4'>
           <a href="https://www.linkedin.com/in/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://github.com/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-gray-900">
+          <a href="https://github.com/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white">
             <FaGithub size={24} />
           </a>
           <a href="mailto:santhoshvenkidusamy@gmail.com" className="text-red-600">

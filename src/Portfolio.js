@@ -37,9 +37,9 @@ const Portfolio = () => {
                     <img src={product?.image} alt={product.name} className='h-32 rounded-lg' />
                 </div>
                 <div className='flex justify-start flex-col items-center md:items-start md:ml-2'>
-                    <div className="mt-4 md:mt:0 mb-3 text-[18px] mx-2 md:mx-0 items-center">{product.name}</div>
+                    <div className="mt-4 md:mt:0 mb-3 text-[18px] mx-2 md:mx-0 items-center dark:text-gray-200">{product.name}</div>
                     {product?.details?.map((detail, index) => (
-                        <div key={index} className='text-gray-700 text-[15px] align-baseline text-left mx-2 md:mx-0'>
+                        <div key={index} className='text-gray-700 text-[15px] align-baseline text-left mx-2 md:mx-0 dark:text-gray-400'>
                             {detail?.description}
                         </div>
                     ))}

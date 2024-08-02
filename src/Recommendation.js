@@ -76,7 +76,7 @@ const Recommendation = () => {
         const productTemplate = ( product ) => {
             return (
                 <div className="relative py-8 ">
-                <div className="rounded-lg  border-2 border-gray-100 bg-white p-4 px-8 m-2 text-center relative overflow-visible transform transition duration-500 hover:scale-105">
+                <div className="rounded-lg  border-2 border-gray-100 dark:border-0 dark:bg-slate-800 bg-white p-4 px-8 m-2 text-center relative overflow-visible transform transition duration-500 hover:scale-105">
                     <div className="absolute top-0 right-1/2 transform translate-x-1/2 sm:translate-x-1/3 md:translate-x-1/4 lg:translate-x-1/2" style={{ transform: 'translate(50%, -50%)', zIndex: 100 }}>
                         <img
                             src={product.image}
@@ -86,9 +86,9 @@ const Recommendation = () => {
                     </div>
                     <div className="relative z-10 pt-0 sm:pt-10 md:pt-0 ">
                     <div className="mt-8">
-                        <div className=" text-lg font-semibold">{product.name}</div>
-                        <div className="text-sm text-gray-500 mt-1 mb-2">{product.role}</div>
-                        <p className="text-sm text-gray-600">{product.description}</p>
+                        <div className=" text-lg font-semibold dark:text-gray-200">{product.name}</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-300 mt-1 mb-2">{product.role}</div>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">{product.description}</p>
                     </div>
                 </div>
                 </div>
