@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import profile from '../src/Images/profile.png';
+import profilep from '../src/Images/profilep.png';
+import Santhosh from '../src/Images/Santhosh.jpeg';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import download from'../src/Images/dwnld.gif';
 const About = () => {
@@ -15,7 +17,7 @@ const About = () => {
             </div>
     <div className="flex flex-col items-center m-4 p-4 lg:flex-row lg:justify-center xl:mx-48 space-y-4 lg:space-y-0 lg:space-x-14">
       <div className="flex flex-col items-center lg:w-1/3 space-y-4">
-        <img src={profile} className="lg:w-64 lg:h-64 w-52 h-52 " style={{borderRadius:'9.5rem'}}alt="Profile" />
+        <img src={Santhosh} className="lg:w-64 lg:h-64 w-52 h-52 " style={{borderRadius:'9.5rem'}}alt="Profile" />
         <div className="flex space-x-4">
           <a href="https://www.linkedin.com/in/santhoshvenkidusamy" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             <FaLinkedin size={32} />
