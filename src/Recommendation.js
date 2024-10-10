@@ -67,7 +67,7 @@ const Recommendation = () => {
             name: 'Sri Ranjini',
             description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
             image: Ranjini,
-            role: 'Student'
+            role: 'Application Developer'
         }
     ];
 
