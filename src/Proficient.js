@@ -7,6 +7,7 @@ import download from '../src/Images/download-ts.gif';
 import dwnld from '../src/Images/dwnld-ts.png';
 import { ScrollTop } from 'primereact/scrolltop';
 import { FaArrowUp } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 const Proficient = () => {
   const [show, setShow] = useState(false);
 
@@ -66,6 +67,10 @@ const Proficient = () => {
         <div className='flex flex-col items-center mx-8 m-3'>
           <FaGitlab className='text-orange-600' />
           <span className='text-[12px] dark:text-gray-300'>GitLab</span>
+        </div>
+        <div className='flex flex-col items-center mx-8 m-3'>
+          <RiNextjsFill className='text-black dark:text-white' />
+          <span className='text-[12px] dark:text-gray-300'>Next JS</span>
         </div>
       </div>
       <ScrollTop target="window" behavior='smooth' className="w-1rem h-1rem border-round-md bg-blue-500 text-white" icon={<FaArrowUp/>} />
