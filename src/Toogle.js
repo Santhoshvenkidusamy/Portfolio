@@ -29,8 +29,8 @@ const Toogle = () => {
               { description: "Transformed wireframes and mockups into reusable, pixel-perfect React components, improving development efciency by 30% and ensuring alignment with design specications." },
               { description: "Designed and implemented MongoDB modules for efcient CRUD operations, reducing query response times by 15% through optimized indexing and aggregation pipelines." },
               { description: "Implemented a user-friendly portal enabling clients to easily update data in MongoDB, reducing manual effort significantly." },
-              { description: "Introduced a Bulk Update feature, enabling clients to update multiple documents simultaneously,reducing manual effort by 40% and improving user productivity." },
-              { description: "Successfully performed MongoDB migration from version 4.2 - 6.0, ensuring zero downtime" },
+              { description: "Introduced a Bulk Update feature, enabling clients to update multiple documents simultaneously, reducing manual effort by 40% and improving user productivity." },
+              { description: "Successfully performed MongoDB migration from version 4.2 - 6.0" },
             ]
           },
           {
