@@ -34,7 +34,7 @@ const Toogle = () => {
             ]
           },
           {
-            status: "Associate Analytics",
+            status: "Senior Associate",
             company:'WNS Global Services',
             date: "Jan 2024 - Present",
             details: [

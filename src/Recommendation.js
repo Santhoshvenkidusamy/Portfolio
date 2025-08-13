@@ -62,13 +62,13 @@ const Recommendation = () => {
             role: 'Junior Software Development Engineer'
             
         },
-        {
+        // {
           
-            name: 'Sri Ranjini',
-            description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
-            image: Ranjini,
-            role: 'Application Developer'
-        }
+        //     name: 'Sri Ranjini',
+        //     description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
+        //     image: Ranjini,
+        //     role: 'Application Developer'
+        // }
     ];
 
 
