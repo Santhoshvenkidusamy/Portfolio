@@ -1,16 +1,16 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
-import Swiggy from '../src/Images/Swiggy.png';
+// import Swiggy from '../src/Images/Swiggy.png';
 import Niki from '../src/Images/Niki.jpg';
 import Ranjini from '../src/Images/Ranjini.jpg';
 import Arun from '../src/Images/Arun.jpg';
 import Gokul from '../src/Images/Gokul.jpg';
 import Karthikeyan from '../src/Images/Karthikeyan.jpg';
-import Netflix from '../src/Images/Netflix.png';
+// import Netflix from '../src/Images/Netflix.png';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import { Image } from 'primereact/image';
+// import { Image } from 'primereact/image';
 
 const Recommendation = () => {
     const responsiveOptions = [
@@ -62,13 +62,13 @@ const Recommendation = () => {
             role: 'Junior Software Development Engineer'
             
         },
-        // {
+        {
           
-        //     name: 'Sri Ranjini',
-        //     description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
-        //     image: Ranjini,
-        //     role: 'Application Developer'
-        // }
+            name: 'Sri Ranjini',
+            description: 'Studying with Santhosh at Sri Eshwar College of Engineering was a great experience. Santhosh brought a positive attitude and a passion for learning, making him an invaluable team member and an asset to any future endeavor.',
+            image: Ranjini,
+            role: 'Application Developer'
+        }
     ];
 
 

@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import profile from '../src/Images/profile.png';
-import profilep from '../src/Images/profilep.png';
+// import profile from '../src/Images/profile.png';
+// import profilep from '../src/Images/profilep.png';
 import Santhosh from '../src/Images/Santhosh.jpeg';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import download from'../src/Images/dwnld.gif';
+// import download from'../src/Images/dwnld.gif';
 const About = () => {
-  const [show, setShow] = useState(false);
-  const handleDownload = () =>{
-    setShow(true)
-  }
+  // const [show, setShow] = useState(false);
+  // const handleDownload = () =>{
+  //   setShow(true)
+  // }
   return (
     <>
             <div className='flex flex-col items-center m-4 pt-24'>
@@ -33,10 +33,10 @@ const About = () => {
       <div className="lg:w-1/2 text-center lg:text-left">
         <div className="space-y-4  text-slate-700 dark:text-slate-300 text-[15px]">
           <p>
-            Hi, I'm Santhosh, a recent B.Tech graduate in Information Technology and a passionate web developer.
+            Results-driven frontend developer with around 3.5 years of experience across fast-paced product startups and large-scale enterprise environments.
           </p>
           <p>
-            I thrive on collaboration and enjoy working with cross-functional teams to bring innovative ideas to life. I'm always eager to stay up-to-date with the latest trends and best practices in front-end development, and I'm constantly seeking opportunities to learn and grow.
+            Specializes in React.js ecosystem, Redux state management, and performance optimization. Passionate about clean component architecture, performance optimization, and shipping things that actually move the needle.
           </p>
         </div>
         </div>
