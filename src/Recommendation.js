@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'primereact/carousel';
 // import Swiggy from '../src/Images/Swiggy.png';
 import Niki from '../src/Images/Niki.jpg';
+import Disha from '../src/Images/Disha.jpg';
 import Ranjini from '../src/Images/Ranjini.jpg';
 import Arun from '../src/Images/Arun.jpg';
 import Gokul from '../src/Images/Gokul.jpg';
@@ -53,6 +54,13 @@ const Recommendation = () => {
             description: 'Santhosh exhibited outstanding problem-solving abilities and a proactive approach to tackling challenges. He was an invaluable team player, always willing to collaborate and share her knowledge with colleagues, fostering a positive and productive work environment.',
             image: Niki,
             role: 'Junior Software Development Engineer'
+        },
+        {
+            
+            name: 'Disha',
+            description: 'I am delighted to recommend Santhosh Venkidusamy, a highly skilled Software Development Engineer with strong expertise in JavaScript, TypeScript, React.js, SQL, and NoSQL technologies. Santhosh is a dedicated and results-oriented professional who consistently demonstrates strong technical abilities, problem-solving skills, and a commitment to delivering high-quality solutions. His ability to quickly understand complex requirements and translate them into efficient, scalable applications makes him a valuable asset. Beyond his technical expertise, Santhosh is a collaborative team player with excellent communication skills. He approaches challenges with a positive attitude, takes ownership of his work, and is always eager to learn and adapt to new technologies and industry trends. I have found him to be reliable, hardworking, and passionate about software development. I am confident that he will continue to excel in his career and make meaningful contributions wherever he works. I strongly recommend Santhosh for any software engineering opportunity and wish him continued success in all his future endeavors.',
+            image: Disha,
+            role: 'Data Analyst'
         },
         {
             
